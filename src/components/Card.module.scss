@@ -1,0 +1,123 @@
+.Card {
+    width: 375px;
+    height: 525px;
+    border-radius: 16px;
+    border: 16px solid #dcbe2f;
+    padding: 32px;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+
+    &[data-type="normal"] {
+        background-color: #a7a778;
+    }
+
+    &[data-type="fire"] {
+        background-color: #f08030;
+    }
+
+    &[data-type="water"] {
+        background-color: #6890f0;
+    }
+
+    &[data-type="electric"] {
+        background-color: #f5ce30;
+    }
+
+    &[data-type="grass"] {
+        background-color: #7ab956;
+    }
+
+    &[data-type="ice"] {
+        background-color: #95cdcc;
+    }
+
+    &[data-type="fighting"] {
+        background-color: #c03028;
+    }
+
+    &[data-type="poison"] {
+        background-color: #9d3f9d;
+    }
+
+    &[data-type="ground"] {
+        background-color: #dcbd66;
+    }
+
+    &[data-type="flying"] {
+        background-color: #a890f0;
+    }
+
+    &[data-type="psychic"] {
+        background-color: #f85888;
+    }
+
+    &[data-type="bug"] {
+        background-color: #a8b820;
+    }
+
+    &[data-type="rock"] {
+        background-color: #b8a038;
+    }
+
+    &[data-type="ghost"] {
+        background-color: #705898;
+    }
+
+    &[data-type="dragon"] {
+        background-color: #7038f8;
+    }
+
+    &[data-type="dark"] {
+        background-color: #705848;
+    }
+
+    &[data-type="steel"] {
+        background-color: #b8b8d0;
+    }
+
+    &[data-type="fairy"] {
+        background-color: #f0b6bc;
+    }
+}
+
+.titleBar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.name {
+    text-transform: capitalize;
+    margin-block: 0;
+}
+
+.id {
+    margin-block: 0;
+}
+
+.imageArea {
+    display: flex;
+    justify-content: center;
+    border-block: 4px solid #cdccc2;
+}
+
+.image {
+
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 16px;
+}
+
+.stat {
+    margin-top: 16px;
+    font-size: 24px;
+}
+
+.statLabel {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 12px;
+}

@@ -1,0 +1,14 @@
+.cardGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.intro {
+    margin-bottom: 32px;
+    font-size: 1.5rem;
+    max-width: 960px;
+    padding-inline: 30px;
+    margin-inline: auto;
+}
