@@ -15,8 +15,8 @@ export default async function Home() {
 
 
   // The list endpoint only provides the name and url - and there's no batch endpoint. So we call each url independently
-  const details = await Promise.all(data.map((pokemon) => fetch(pokemon.url)));
-  const detailsData = await Promise.all(details.map(pokemon => pokemon.json()))
+  const details = await Promise.all(data.map((pokemon: any) => fetch(pokemon.url)));
+  const detailsData = await Promise.all(details.map((pokemon: any) => pokemon.json()))
 
   // The detail endpoint returns a lot of data - we want to parse it down into just the data we need
   const pokemonData: CardProps[] = detailsData.map(pokemon => ({
