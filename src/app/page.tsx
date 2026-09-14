@@ -34,7 +34,7 @@ export default async function Home() {
     <div className={styles.page}>
       <section className={styles.intro}>
         <p>Hello! Thanks for the fun project - I tried to keep my approach intentionally minimal. I went for a simple stack: Next.js + SCSS. No bells or whistles.</p>
-        <p>The data is retrieved from the API and parsed down in <a href="">page.tsx</a> (a server component) and then rendered into a grid of cards (<a href="">Card.tsx</a>).</p>
+        <p>The data is retrieved from the API and parsed down in <a href="https://github.com/ChristianMay21/Charles-Schwab/blob/master/src/app/page.tsx">page.tsx</a> (a server component) and then rendered into a grid of cards (<a href="https://github.com/ChristianMay21/Charles-Schwab/blob/master/src/components/Card.tsx">Card.tsx</a>).</p>
         <p>For fun, I figured I'd render the data as minimal Pokémon cards in a simple grid layout. I also added some logic to color the card differently, depending on the Pokémon's primary type.</p>
       </section>
       <main className={styles.cardGrid}>
